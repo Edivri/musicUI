@@ -260,7 +260,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         image: DecorationImage(
           image:
-              AssetImage("assets/ariana_grande_cover_no_tears_left_to_cry.jpg"),
+              AssetImage("assets/Crossroad.jpeg"),
           fit: BoxFit.cover,
         ),
       ),
