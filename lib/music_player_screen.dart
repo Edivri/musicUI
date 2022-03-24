@@ -155,7 +155,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
           ),
           SizedBox(height: 4.0),
           Text(
-            "Ariana Grande",
+            "Vector",
             style: TextStyle(
               fontFamily: "Campton_Light",
               color: Color(0xFF7D9AFF),
@@ -214,7 +214,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
           ),
           image: DecorationImage(
             image: AssetImage(
-              "assets/ariana_grande_artist_photo_3.png",
+              "assets/vector.jpeg",
             ),
             fit: BoxFit.cover,
           ),
@@ -264,7 +264,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
         shape: BoxShape.rectangle,
         image: DecorationImage(
           image:
-              AssetImage("assets/ariana_grande_cover_no_tears_left_to_cry.jpg"),
+              AssetImage("assets/Crossroad.jpeg"),
           fit: BoxFit.cover,
         ),
       ),

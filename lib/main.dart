@@ -63,20 +63,20 @@ class _HomeScreenState extends State<HomeScreen> {
           builder: (BuildContext context, BoxConstraints constraints) {
             return Stack(
               children: <Widget>[
+                // Positioned(
+                //   child: Text(
+                //     "Vector",
+                //     style: TextStyle(
+                //       color: Colors.white,
+                //       fontFamily: "CoralPen",
+                //       fontSize: 72.0,
+                //     ),
+                //   ),
+                //   top: constraints.maxHeight - 100.0,
+                // ),
                 Positioned(
                   child: Text(
-                    "Grande",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: "CoralPen",
-                      fontSize: 72.0,
-                    ),
-                  ),
-                  top: constraints.maxHeight - 100.0,
-                ),
-                Positioned(
-                  child: Text(
-                    "Ariana",
+                    "Vector",
                     style: TextStyle(
                       color: Colors.white,
                       fontFamily: "CoralPen",
@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Positioned(
                   child: Text(
-                    "Tranding",
+                    "Trending",
                     style: TextStyle(
                       color: Color(0xFF7D9AFF),
                       fontSize: 14.0,
