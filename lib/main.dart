@@ -268,14 +268,12 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void initListSong() {
-    listSong.add(Song(title: "No tears left to cry", duration: "5:20"));
-    listSong.add(Song(title: "Imagine", duration: "3:20"));
-    listSong.add(Song(title: "Into you", duration: "4:12"));
-    listSong.add(Song(title: "One last time", duration: "4:40"));
-    listSong.add(Song(title: "7 rings", duration: "2:58"));
-    listSong.add(Song(title: "Thank u, next", duration: "3:27"));
-    listSong.add(Song(
-        title: "Break up with your girlfriend, i'm bored", duration: "3:10"));
+    listSong.add(Song(title: "No Peace", duration: "3:39"));
+    listSong.add(Song(title: "If We Must(Sun x Rain", duration: "2:07"));
+    listSong.add(Song(title: " No Worries", duration: "3:09"));
+    listSong.add(Song(title: "Eyan Colgate", duration: "3:36"));
+    listSong.add(Song(title: "Blessed", duration: "3:42"));
+  
   }
 }
 
